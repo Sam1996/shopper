@@ -1,0 +1,110 @@
+.bar-header{
+	height: 48px;
+}
+.has-header{
+	top: 48;
+}
+.menuItem{
+	border: none;
+}
+.menu-content{
+	background: #9ccc65;
+}
+.menuItem.item{
+	background: transparent;
+}
+.menuItem .item-content{
+	background: transparent;
+	color: #fff;
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
+.menuItem a:active,.menuItem a:focus,.menuItem a:visited{
+	background: #558b2f;
+}
+.menuItem a.activated{
+	background: #558b2f;
+}
+.slide-box{
+	height: 200px;
+}
+.green{
+	color: #558b2f;
+}
+.category-image{
+	width: 40px;
+	height: 40px;
+}
+.category{
+	height: 110px;
+	margin-bottom: 10px;
+	color: #333;
+	text-decoration: none;
+}
+.item-divider{
+	background: #558b2f;
+	border: #558b2f;
+}
+.price .new{
+	color:#d32f2f;
+	font-size: 18px !important;
+}
+.price .old{
+	color:#333;
+	font-size: 14px !important;
+	text-decoration: line-through;
+}
+.price .offer{
+	color: green;
+	font-size: 14px;
+}
+.header-button, .header-button .icon:before{
+	font-size: 24px !important;
+	color: #558b2f;
+}
+.item-complex{
+	padding-right: 0;
+}
+.qty-button{
+	border-radius: 0px;
+	padding:2px;
+}
+.qty-input{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.promoBox{
+	height: 220px;
+}
+.promoBox img{
+	height: 220px;
+}
+.slideTabs .tsb-icons{
+	margin: 0;
+	background: #9ccc65 !important;
+	border-bottom: 1px solid #99a129;
+}
+.loginForm{
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	align-self:center;
+	align-items: stretch;
+	justify-content:center;
+}
+.loginForm .item-input{
+	background: transparent;
+	border: 1px solid #558b2f;
+	color: #558b2f;
+}
+.loginForm .item-input input[placeholder]{
+	color: #558b2f;
+}
+.loginPage,.signupPage{
+	background: #9ccc65;
+	padding: 40px;
+}
+.loginFormDiv,.signupFormDiv{
+	background: rgba(238,238,238 ,1);
+	padding: 15px;
+}

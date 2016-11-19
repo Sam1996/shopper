@@ -1,0 +1,58 @@
+<ion-view view-title="Groceries">
+	<ion-content class="has-header">
+		<div class="promoBox">
+			<img src="img/groceries.jpg" width="100%">
+		</div>
+		<tab-slide-box class="slideTabs">
+			<div class="tsb-icons">
+			    <div class="tsb-ic-wrp">
+					<ion-scroll direction="x" class="tsb-hscroll col" >
+						<a href="javascript:;">Dals & Pulses</a>
+						<a href="javascript:;">Edible oil</a>
+						<a href="javascript:;">Flours & Sooji</a>
+						<a href="javascript:;">Masalas & Spices</a>
+						<a href="javascript:;">Organic Staples</a>
+						<a href="javascript:;">Rice & Dals</a>
+						<a href="javascript:;">Salt, Sugar & Jaggery</a>
+						<a href="javascript:;">Dry fruits</a>
+					</ion-scroll>
+				</div>
+	    	</div>
+	    	<ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index)">
+			    <ion-slide>
+		            <ion-list>
+						<ion-item class="item-thumbnail-left item-button-right">
+							<img src="img/grocery/dal/urad_dal.jpg">
+						    <h2 class="green">Urad Dal</h2>
+						    <h4 class="price"><span class="old">Rs.135</span>&nbsp;&nbsp;<span class="new">Rs.120</span></h4>
+						    <p>Lorem Ipsum dolor sit amet</p>
+						</ion-item>
+						<ion-item class="item-thumbnail-left item-button-right">
+							<img src="img/grocery/dal/urad_dal_chilka.jpg">
+						    <h2 class="green">Urad Dal Chilka</h2>
+						    <h4 class="price"><span class="old">Rs.135</span>&nbsp;&nbsp;<span class="new">Rs.120</span>&nbsp;&nbsp;
+						    	<span class="offer">15% off</span></h4>
+						    <p>Lorem Ipsum dolor sit amet</p>
+						</ion-item>
+						<ion-item class="item-thumbnail-left item-button-right">
+							<img src="img/grocery/dal/garbanzo_beans.jpg">
+						    <h2 class="green">Garbanzo Beans</h2>
+						    <h4 class="price"><span class="old">Rs.135</span>&nbsp;&nbsp;<span class="new">Rs.120</span>&nbsp;&nbsp;
+						    	<span class="offer">5% off</span></h4>
+						    <p>Lorem Ipsum dolor sit amet</p>
+						</ion-item>
+						<ion-item class="item-thumbnail-left item-button-right">
+							<img src="img/grocery/dal/masoor-dal.jpg">
+						    <h2 class="green">Masoor Dal</h2>
+						    <h4 class="price"><span class="old">Rs.135</span>&nbsp;&nbsp;<span class="new">Rs.120</span></h4>
+						    <p>Lorem Ipsum dolor sit amet</p>
+						</ion-item>
+					</ion-list>
+		        </ion-slide>
+		        <ion-slide>
+		            <h3>Games content</h3>
+		        </ion-slide>
+		    </ion-slide-box>
+		</tab-slide-box>
+	</ion-content>
+</ion-view>
